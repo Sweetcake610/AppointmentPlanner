@@ -10,10 +10,10 @@ export const ContactForm = ({
   name, setName,
   phone, setPhone,
   email, setEmail,
-  handleSubmit }) => {
+  onSubmit }) => {
   return (
     
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={onSubmit}>
       <label>
         Name:
         <input type='text' value={name} onChange={({target}) => setName(target.value)} />

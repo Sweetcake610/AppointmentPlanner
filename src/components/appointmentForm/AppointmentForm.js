@@ -20,7 +20,7 @@ export const AppointmentForm = ({
   setDate,
   time,
   setTime,
-  handleSubmit
+  onSubmit
 }) => {
   const getTodayString = () => {
     const [month, day, year] = new Date()
@@ -30,7 +30,7 @@ export const AppointmentForm = ({
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={onSubmit}>
       <label>
         Title:
         <input type="text" value={title} onChange={({target}) => setTitle(target.value)} />

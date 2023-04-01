@@ -10,7 +10,7 @@ passing each object in the array as a prop to each rendered Tile component */
 export const TileList = ({data}) => {
   return (
     <div>
-      {data.map( (index, value) =>  <Tile key={index} value={value} /> )}
+      {data.map( (element, index) =>  <Tile key={index} value={element} /> )}
     </div>
   );
 };
