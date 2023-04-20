@@ -1,5 +1,5 @@
 # AppointmentPlanner
-###Appointment Planner Challenge Project with the Codecademy Full-Stack Engineer Certification program.
+### Appointment Planner Challenge Project with the Codecademy Full-Stack Engineer Certification program.
 
 In this project, you will use functional React components to create an app that manages contacts and appointments. 
 The app consists of two pages: one to view and add contacts and one to view and add appointments.
@@ -8,10 +8,10 @@ implementing the app from the topmost component down. If you would like to imple
 
 To complete this project, you should be familiar with fundamental React concepts, including:
 
-*JSX
-*React Components
-*Components Interacting
-*Hooks
-*React Programming Patterns
-*React Styles
-*React Forms
+* JSX
+* React Components
+* Components Interacting
+* Hooks
+* React Programming Patterns
+* React Styles
+* React Forms
