@@ -15,7 +15,7 @@ export const Tile = ({value}) => {
         } else {
           return <p className='tile' key={index}> {data} </p>
         }
-      })};
+      })}
     </div>
   );
 };
